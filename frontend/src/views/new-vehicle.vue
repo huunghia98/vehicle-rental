@@ -102,7 +102,7 @@ export default {
           setTimeout(function() {
             h.noti = ''
             router.push('/dashboard')
-          }, 500)
+          }, 1000)
         })
         .catch(function(e) {
           if (e) {
@@ -110,7 +110,7 @@ export default {
           }
           setTimeout(function() {
             h.noti = ''
-          })
+          },1000)
         })
     }
   }
